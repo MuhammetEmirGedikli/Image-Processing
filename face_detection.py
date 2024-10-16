@@ -4,6 +4,7 @@ import mediapipe as mp
 cap=cv2.VideoCapture(0)
 mpFaceDetection=mp.solutions.face_detection
 faceDetection=mpFaceDetection.FaceDetection(0.20)
+
 while True:
     success,img=cap.read()
 
@@ -16,7 +17,7 @@ while True:
     if results.detections:
         for id, detection in enumerate(results.detections):
             bboxC=detection.location_data.relative_bounding_box #aldığı suratımızın görüntüsünün görünmez bir kare içerisindeki koordinatları
-            print(bboxC)q
+            print(bboxC)
             h,w,_=img.shape
             bbox=int(bboxC.xmin*w),int(bboxC.ymin*h),int(bboxC.width*w),int(bboxC.height*h)
             cv2.rectangle(img,bbox,(0,255,255),2)
