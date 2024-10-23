@@ -6,7 +6,7 @@ This project captures live video from a webcam and displays it in a window using
 
 ## Requirements
 
-- Python 3.x
+- Python 3.10
 - OpenCV
 
 You can install the required package using pip:
@@ -44,7 +44,7 @@ This project captures live video from a webcam and performs real-time face detec
 
 ## Requirements
 
-- Python 3.x
+- Python 3.10
 - OpenCV
 - MediaPipe
 
@@ -82,7 +82,7 @@ This project utilizes MediaPipe to detect and recognize hand gestures in real-ti
 
 ## Requirements
 
-- Python 3.x
+- Python 3.10
 - OpenCV
 - MediaPipe
 
