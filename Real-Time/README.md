@@ -157,7 +157,7 @@ The real-time feed will display:
 The live angle at the elbow joint for each push-up.
 The push-up count.
 Requirements
-Python 3.x
+Python 3.10
 OpenCV
 Mediapipe
 Numpy
