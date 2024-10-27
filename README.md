@@ -27,10 +27,12 @@ This project estimates the distance between a camera and an object by analyzing 
 3. **Distance Calculation**: Based on the camera’s focal length and the known real-world height of the object, the script calculates the distance between the camera and the object using the following formula:
 
    \[
-   \text{Distance} = \frac{\text{Focal Length} \times \text{Real Object Height}}{\text{Object Height in Pixels}}
+   
+   \ Distance = Focal Length × Real Object Height / Object Height in Pixels
+​
    \]
 
-4. **Result Visualization**: The calculated distance is displayed on the image itself, making it easy to verify and visualize the output.
+5. **Result Visualization**: The calculated distance is displayed on the image itself, making it easy to verify and visualize the output.
 
 ### Requirements
 - **Python**
@@ -41,8 +43,8 @@ This project estimates the distance between a camera and an object by analyzing 
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com/your_username/project_name.git
-   cd project_name
+   git clone https://github.com/MuhammetEmirGedikli/distancecalculating.git
+   cd distancecalculating
    ```
 
 2. Install dependencies.
@@ -52,7 +54,7 @@ This project estimates the distance between a camera and an object by analyzing 
 
 3. Run the script.
    ```bash
-   python distance_calculation.py
+   python distancecalculation.py
    ```
 
 This project is a useful foundation for applications in robotics, augmented reality, and automated measurements, where distance estimation is a crucial requirement.
