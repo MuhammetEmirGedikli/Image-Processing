@@ -115,6 +115,8 @@ The purpose of this code is to demonstrate real-time hand gesture recognition us
 
 ***Push-Up Counter***
 
+Real-Time Angle Detection and Push-Up Counter
+
 This Python project leverages Mediapipe and OpenCV to track human body landmarks, calculate joint angles, and count push-ups in real-time using your webcam. This program is especially helpful for fitness applications, where accurate angle measurements and exercise counters are essential.
 
 Features
