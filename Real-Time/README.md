@@ -113,5 +113,57 @@ The purpose of this code is to demonstrate real-time hand gesture recognition us
 
 
 
+***Push-Up Counter***
+
+This Python project leverages Mediapipe and OpenCV to track human body landmarks, calculate joint angles, and count push-ups in real-time using your webcam. This program is especially helpful for fitness applications, where accurate angle measurements and exercise counters are essential.
+
+Features
+Real-Time Pose Detection: Uses Mediapipe's Pose module to detect human body landmarks in real-time from webcam input.
+Angle Calculation: Calculates the angle between three key points to monitor joint movement, useful for exercise form analysis.
+Push-Up Counter: Automatically counts push-ups based on the angle formed by the elbow joint, updating the count each time a push-up is completed.
+Visual Feedback: Draws landmarks, lines, and angle labels on the live video feed to enhance tracking accuracy.
+Installation
+Clone the repository:
+
+bash
+git clone https://github.com/yourusername/repository-name.git
+Navigate to the project directory:
+
+bash
+cd repository-name
+Install the required packages: Make sure you have Python 3 installed. Then, install the following packages:
+
+bash
+Kodu kopyala
+pip install opencv-python mediapipe numpy
+Usage
+Run the code:
+
+bash
+Kodu kopyala
+python your_script_name.py
+Start exercising:
+
+Ensure your webcam is positioned to capture your movements.
+Perform push-ups, and the program will calculate and display the current angle and push-up count on the screen.
+Quit the application:
+
+Press the 'q' key to exit the live video feed.
+Code Overview
+Angle Calculation: The findAngle function calculates the angle between three points, typically shoulder-elbow-wrist, to monitor form during exercises like push-ups.
+Push-Up Counting: The program measures the angle range and increments the count each time the exercise reaches full range (when the body is lowered and raised back up).
+Real-Time Visualization: Visual elements such as lines, circles, and angle texts are drawn on the live video to help users track form.
+Example Output
+The real-time feed will display:
+
+The live angle at the elbow joint for each push-up.
+The push-up count.
+Requirements
+Python 3.x
+OpenCV
+Mediapipe
+Numpy
+
+
 
 
