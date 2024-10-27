@@ -26,11 +26,11 @@ This project estimates the distance between a camera and an object by analyzing 
 2. **Object Detection**: Using OpenCV's built-in classifiers (e.g., for face detection), the script identifies the object in the image and measures its height in pixels.
 3. **Distance Calculation**: Based on the camera’s focal length and the known real-world height of the object, the script calculates the distance between the camera and the object using the following formula:
 
-   \[
+   \
    
-   \ Distance = Focal Length × Real Object Height / Object Height in Pixels
+    Distance = Focal Length × Real Object Height / Object Height in Pixels
 ​
-   \]
+   \
 
 5. **Result Visualization**: The calculated distance is displayed on the image itself, making it easy to verify and visualize the output.
 
@@ -43,7 +43,7 @@ This project estimates the distance between a camera and an object by analyzing 
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com/MuhammetEmirGedikli/distancecalculating.git
+   [git clone https://github.com/MuhammetEmirGedikli/distancecalculating.git](https://github.com/MuhammetEmirGedikli/Image-Processing.git)
    cd distancecalculating
    ```
 
