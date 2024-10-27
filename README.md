@@ -33,7 +33,7 @@ NumPy
 
 Setup & Run Instructions:
 
-git clone https://github.com/MuhammetEmirGedikli/distancecalculating.git
+git clone https://github.com/MuhammetEmirGedikli/distance_calculating.py.git
 cd distancecalculating
 
 Install dependencies:
