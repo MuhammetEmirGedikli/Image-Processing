@@ -134,13 +134,11 @@ cd repository-name
 Install the required packages: Make sure you have Python 3 installed. Then, install the following packages:
 
 bash
-Kodu kopyala
 pip install opencv-python mediapipe numpy
 Usage
 Run the code:
 
 bash
-Kodu kopyala
 python your_script_name.py
 Start exercising:
 
